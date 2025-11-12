@@ -3,11 +3,11 @@ require('dotenv').config();
 const Character = require('./models/character');
 
 const characters = {
-    WALDO: 'waldo',
-    WOOF: 'woof',
-    WILMA: 'wilma',
-    WHITEBEARD: 'whitebeard',
-    ODLAW: 'odlaw'
+    WALDO: 'Waldo',
+    WOOF: 'Woof',
+    WILMA: 'Wilma',
+    WHITEBEARD: 'Whitebeard',
+    ODLAW: 'Odlaw'
 }
 
 const images = {
@@ -54,19 +54,51 @@ const seedCharacters = [
     y: 335
   }, {
     name: "Lady burning trousers",
+    image: images[2],
     x: 534,
     y: 733
   },
   {
     name: "Long man with the long tie",
+    image: images[2],
     x: 2174,
     y: 1419
   },
   {
     name: "Glove attacking a man",
+    image: images[2],
     x: 599,
     y: 1416
   },
+  {
+    name: characters.WALDO,
+    image: images[3],
+    x: 880,
+    y: 663
+  },
+  {
+    name: characters.WOOF,
+    image: images[3],
+    x: 1173,
+    y: 394
+  },
+  {
+    name: characters.WILMA,
+    image: images[3],
+    x: 892,
+    y: 767
+  }, {
+    name: characters.WHITEBEARD,
+    image: images[3],
+    x: 1341,
+    y: 983
+  },
+  {
+    name: characters.ODLAW,
+    image: images[3],
+    x: 1204,
+    y: 1211
+  }
 
 ];
 
